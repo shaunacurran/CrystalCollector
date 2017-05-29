@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Crystal Collector</title>
+	
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  <script src="assets/javascript/game.js"></script>
+
+</head>
+<body>
+
+
+
+<div class="container">
+	<div class="row">
+		<div class="col-xs-3">
+			<div class="well">
+				<p>•You will be given a random number at the start of the game.</p>
+                <p>•There are four crystals above. By clicking on a crystal, you will add a specific amount of points to your total score.</p>
+                <p>•You win the game by matching your total score to the random number given. You lose the game if your total score goes above the random number.</p>
+                <p>•The value of each crystal is hidden from you until you click on it.</p>
+                <p>•Each time the game starts, the value of each crystal will change.</p>
+            </div>
+		</div>
+		<div class="col-xs-6">
+			<div class="row">
+				<div class="col-xs-6">
+					<div class="panel panel-default">
+  						<div id="picFrame" class="panel-body">
+   							<img class="green" src="assets/images/green.png">
+   						</div>
+  					</div>
+				</div>
+				<div class="col-xs-6">
+					<div class="panel panel-default">
+  						<div id="picFrame" class="panel-body">
+   							<img class="green" src="assets/images/clear.png">
+   						</div>
+  					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-6">
+					<div class="panel panel-default">
+  						<div id="picFrame" class="panel-body">
+							<img class="green" src="assets/images/pink.png">
+						</div>
+  					</div>
+				</div>
+				<div class="col-xs-6">
+					<div class="panel panel-default">
+  						<div id="picFrame" class="panel-body">
+   							<img class="green" src="assets/images/purple.png">
+   						</div>
+  					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-3">
+			<div class="row">
+				<ul class="list-group">
+    				<li class="list-group-item">Wins: <span id="wins">0</span></li>   					 	
+    				<li class="list-group-item">Losses: <span id="losses">0</span>
+    				</li>			 	
+  				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div class="row">		
+			<div class="col-xs-6 col-xs-offset-3">
+				<div class="row">
+					<div class="col-xs-6">
+						<div class="panel panel-default">
+	  						<div class="panel-body">
+	   							 Goal: <span class="goal">
+	  						</div>
+						</div>
+					</div>
+				<div class="col-xs-6">
+					<div class="panel panel-default">
+	  					<div class="panel-body">
+	    						Current: <span class="current">0</span>
+	  					</div>
+					</div>
+				</div>
+			</div>
+		</div>		
+	</div>
+</div>
+	
+		
+
+
+
+</body>
+</html>

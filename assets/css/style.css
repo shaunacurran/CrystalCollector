@@ -1,0 +1,35 @@
+
+img {
+	width: 100%;
+	margin: 30px;
+}
+
+
+#picFrame {
+	padding: 0;
+
+}
+
+.panel-default {
+	border: none;
+	width: 200px;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+
+}
+
+.list-group {
+	padding: 50px;
+	font-size: 30px;
+
+}
+
+.well {
+	padding: 20px;
+	margin-top: 50px;
+
+}
+
+.panel {
+	font-size: 30px;
+}
